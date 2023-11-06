@@ -21,7 +21,7 @@ def preprocess():
 
 # Visualización de los datos
 
-def asd():
+def scatter_1():
     y = df["gdp_capita"]
     plt.ylabel("GDP per Capita")
     x = df["unemployment_rate"]
@@ -37,7 +37,7 @@ def asd():
 
 
 
-def asd2():
+def scatter_2():
     y = df["gdp_capita"]
     plt.ylabel("GDP per Capita")
     x = df["life_expectancy"]
@@ -51,4 +51,3 @@ def asd2():
 
     plt.show()
 
-asd2()
