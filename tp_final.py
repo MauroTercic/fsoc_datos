@@ -51,3 +51,7 @@ def scatter_2():
 
     plt.show()
 
+
+
+
+#asdasdasdas<zd
