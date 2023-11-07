@@ -40,8 +40,8 @@ def scatter_1():
 def scatter_2():
     y = df["gdp_capita"]
     plt.ylabel("GDP per Capita")
-    x = df["life_expectancy"]
-    plt.xlabel("life_expectancy")
+    x = df["cpi"]
+    plt.xlabel("cpi")
     n = df["country"]
     fig, ax = plt.subplots()
     ax.scatter(x, y)
@@ -54,3 +54,9 @@ def scatter_2():
 
 
 
+
+
+df_1 = df.corr(method ='pearson')
+
+
+#print(df_1["gdp_capita"])

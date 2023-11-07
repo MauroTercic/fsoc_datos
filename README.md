@@ -1,12 +1,15 @@
 # Trabajo final
 
+## Análisis inicial de los datos
+Primero que nada planteo cual va a ser mi variable objetivo, en este caso es la de GDP (PBI de ahora en adelante) per cápita. Inicialmente considere usar la de PBI pero me arrepentí ya que la escala de los números hacía muy dificl el análisis y visualización de los datos.
+Sabiendo eso calculo cuales son los índices de correlacion entre las variables/features utilizando el método de Pearson.
+En este caso considero que las variables dentro del rango 0,5 y -0,5 no tienen un peso estadistico significante para los objetivos del estudio.
+
 ## Preprocesamiento
-Usando el data set sobre el desarrollo de los países el objetivo es analizar el GDP (PBI) per capita. Inicialmente el objetivo era sobre el PBI del país pero la escala de los números hacía muy dificil el análisis de los datos. Hice un script adaptable para eliminar las columnas que era irrelevantes para el análisis y elimine 3 paises del data set porque les faltaban muchos datos.
+Sabiendo cuales son las variables estadisticamente relevantes para este estudio, utilizo una herramienta adaptable e interactiva para la eliminación de columnas de un Data Frame de Pandas. Al mismo tiempo, elimino algunos países que poseen demasiadas features vacías.
 
 ## Hipótesis
-Planeto que hay una relación de interdependencia entre las variables de PBI per cápita, tasa de desempleo y esperanza de vida.
-Esta relación se da de la siguiente forma: a mayor esperanza de vida, mayor PBI per capita y a menor tasa de desempleo, mayor PBI per capita.
-La variable objetivo de este trabajo va a ser el PBI per cápita.
+
 
 ## Análisis de datos
 El análisis inicial con las categorias de la esperanza de vida y la tasa de desempleo muestran una correlación entre ambas y el PBI per capita. 
