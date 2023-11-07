@@ -6,6 +6,7 @@ Usando el data set sobre el desarrollo de los países el objetivo es analizar el
 ## Hipótesis
 Planeto que hay una relación de interdependencia entre las variables de PBI per cápita, tasa de desempleo y esperanza de vida.
 Esta relación se da de la siguiente forma: a mayor esperanza de vida, mayor PBI per capita y a menor tasa de desempleo, mayor PBI per capita.
+La variable objetivo de este trabajo va a ser el PBI per cápita.
 
 ## Análisis de datos
 El análisis inicial con las categorias de la esperanza de vida y la tasa de desempleo muestran una correlación entre ambas y el PBI per capita. 
