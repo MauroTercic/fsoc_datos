@@ -54,4 +54,4 @@ def scatter_2():
 
 
 
-#asdasdasdas<zd
+preprocess()
