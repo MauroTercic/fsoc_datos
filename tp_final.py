@@ -54,4 +54,3 @@ def scatter_2():
 
 
 
-preprocess()
